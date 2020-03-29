@@ -1,4 +1,6 @@
-const Logout = require('@anthinkingcoder/keycloak-koa-connect/middleware/logout')
+'use strict';
+
+const Logout = require('@anthinkingcoder/keycloak-koa-connect/middleware/logout');
 module.exports = (options, app) => {
-  return Logout(app.keycloak, app.config.keycloak.middleware.logout || '/logout')
-}
+  return Logout(app.keycloak, app.config.keycloak.middleware.logout || '/logout');
+};

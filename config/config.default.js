@@ -13,12 +13,12 @@ exports.keycloak = {
     store: true,
     cookies: false,
     idpHint: null,
-    scope: null
+    scope: null,
   },
-  kcConfig: { //keycloak.json
+  kcConfig: { // keycloak.json
     clientId: '',
     serverUrl: '',
     realm: '',
-    bearerOnly: false
-  }
+    bearerOnly: false,
+  },
 };
