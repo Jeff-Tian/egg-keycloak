@@ -1,5 +1,8 @@
 {
   "name": "@jeff-tian/egg-keycloak",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.0-development",
   "description": "egg keycloak plugin",
   "eggPlugin": {
@@ -12,7 +15,7 @@
     "keycloak"
   ],
   "dependencies": {
-    "@jeff-tian/keycloak-koa-connect": "latest"
+    "@jeff-tian/keycloak-koa-connect": "^3.5.1"
   },
   "types": "index.d.ts",
   "devDependencies": {
