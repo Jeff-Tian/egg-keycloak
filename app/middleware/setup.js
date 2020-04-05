@@ -1,6 +1,6 @@
 'use strict';
 
-const SetUp = require('@anthinkingcoder/keycloak-koa-connect/middleware/setup');
+const SetUp = require('@jeff-tian/keycloak-koa-connect/middleware/setup');
 module.exports = () => {
   return SetUp;
 };

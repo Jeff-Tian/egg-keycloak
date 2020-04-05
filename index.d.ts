@@ -1,5 +1,5 @@
 import {Application, EggAppConfig} from 'egg';
-import KeycloakConnect from '@anthinkingcoder/keycloak-koa-connect';
+import KeycloakConnect from '@jeff-tian/keycloak-koa-connect';
 
 interface EggKeycloakConfig {
     base: KeycloakConnect.KeycloakOptions,

@@ -1,6 +1,6 @@
 'use strict';
 const KEY_CLOAK = Symbol('Application#keycloak');
-const Keycloak = require('@anthinkingcoder/keycloak-koa-connect');
+const Keycloak = require('@jeff-tian/keycloak-koa-connect');
 
 module.exports = {
   get keycloak() {

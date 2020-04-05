@@ -1,6 +1,6 @@
 'use strict';
 
-const GrantAttacher = require('@anthinkingcoder/keycloak-koa-connect/middleware/grant-attacher');
+const GrantAttacher = require('@jeff-tian/keycloak-koa-connect/middleware/grant-attacher');
 module.exports = (options, app) => {
   return GrantAttacher(app.keycloak);
 };

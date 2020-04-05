@@ -68,7 +68,7 @@ exports.keycloak = {
   }
 };
 ```
-Support all configurations in [keycloak-koa-connect](https://github.com/anthinkingcoder/keycloak-koa-connect).
+Support all configurations in [keycloak-koa-connect](https://github.com/jeff-tian/keycloak-koa-connect).
 see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Example
