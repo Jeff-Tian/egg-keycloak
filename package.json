@@ -15,7 +15,7 @@
     "keycloak"
   ],
   "dependencies": {
-    "@jeff-tian/keycloak-koa-connect": "^3.5.1"
+    "@jeff-tian/keycloak-koa-connect": "^3.5.2"
   },
   "types": "index.d.ts",
   "devDependencies": {
